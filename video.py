@@ -4,6 +4,7 @@ class Cache:
         self.max_size = max_size
         self.cache_time = cache_time
 
+
 class EndPoint:
     cache = []
 
@@ -11,11 +12,13 @@ class EndPoint:
         self.req = req
         self.time = time
 
+
 class Request:
     def __init__(self, count, v_id, endpoint):
         self.count = count
         self.v_id = v_id
         self.endpoint = endpoint
+
 
 class Video:
     def __init__(self, v_id, size):
